@@ -11,23 +11,32 @@
   --color-white: #f6f5ef;
   --color-blue-2: #1f212d;
 }
-
+/*Reset Styles*/
 @import url('./reset.css');
 
+/*Header Styles*/
 @import url('./header.css');
 
+/*Hero Styles*/
 @import url('./hero.css');
 
+/*Aboutblock Styles*/
 @import url('./aboutblock.css');
 
+/*Yahtsblock Styles*/
 @import url('./yahtsblock.css');
 
+/*Servicesblock Styles*/
 @import url('./servicesblock.css');
 
+/*Rentblock Styles*/
 @import url('./rentblock.css');
 
+/*Reviewsblock Styles*/
 @import url('./reviewsblock.css');
 
+/*Footer Styles*/
 @import url('./footer.css');
 
+/*Modal Styles*/
 @import url('./modal.css');
