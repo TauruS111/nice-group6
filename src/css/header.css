@@ -4,4 +4,8 @@
   padding-bottom: 20px;
   color: var(--color-white);
   background-color: var(--color-dark-blue);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
 }

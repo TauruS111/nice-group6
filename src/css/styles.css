@@ -7,6 +7,9 @@
 /*Root Styles*/
 @import url('./root.css');
 
+/*Fonts Styles*/
+@import url('./fonts.css');
+
 /*Reset Styles*/
 @import url('./reset.css');
 
