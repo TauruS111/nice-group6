@@ -1,3 +1,100 @@
+:root {
+  --color-dark-blue: #11131f;
+  --color-light-green: #93abae;
+  --color-linear-green: linear-gradient(to bottom, #bec7c2 0%, #a1b5ba 100%);
+  --color-white: #f6f5ef;
+  --color-blue-2: #1f212d;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Common styles */
+body {
+  font-family: DM Sans, sans-serif;
+  color: var(--color-blue-2);
+  background: var(--color-dark-blue);
+}
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-decoration: none;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*special classes*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/*Base styles for mobile*/
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
+}
+/*Base styles for tablet*/
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/*Base styles for decktop*/
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
 .header {
 }
 
