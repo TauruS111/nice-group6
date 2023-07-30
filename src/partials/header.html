@@ -1,1 +1,66 @@
-<header class="header">GOOD DAY EVERYBODY NICE-GROUP 6</header>
+<!--Header-->
+<header class="header">
+  <div class="header-container container">
+    <nav class="heder-nav">
+      <a class="header-logo-link link" href="./index.html">
+        <svg class="header-logo-icon" width="20" height="23">
+          <use href="./images/icons.svg#icon-fontisto_yacht"></use>
+        </svg>
+        Yacht Adventures
+      </a>
+
+      <ul class="header-menu-list list">
+        <li class="header-menu-item">
+          <a class="header-menu-link link" href="#About">About</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link link" href="#Yachts">Yachts</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link link" href="#Reviews">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <button
+      class="menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="menu-toggle-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-gg_menu-left"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+<!--Mobail window-->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="menu-mobile-icon-close" width="24" height="24">
+          <use href="./images/icons.svg#icon-x"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu-list list">
+        <li class="mobile-menu-item"></li>
+          <a
+            class="mobile-menu-link  link"
+            href="./index.html"
+            >About</a
+          >
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="./index.html">Yachts</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="./index.html">Reviews</a>
+        </li>
+      </ul>
+
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
