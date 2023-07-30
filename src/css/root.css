@@ -1,7 +1,102 @@
 :root {
-  --color-dark-blue: #11131f;
-  --color-light-green: #93abae;
-  --color-linear-green: linear-gradient(to bottom, #bec7c2 0%, #a1b5ba 100%);
-  --color-white: #f6f5ef;
-  --color-blue-2: #1f212d;
+  --text-color: #f6f5ef;
+  --reviews-card-text: rgba(246, 245, 239, 0.5);
+  --background-color: #11131f;
+  --yachtblock-cards-background-: #1f212d;
+  --button-light-background: #93abae;
+  --linear-green: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
+  --hero-image-text: #11131f;
+  --reviews-card-paragraf-text: #f6f5ef80;
+  --background-gradient-circles: #91afba;
+  --background-gradient-circles-small: #a6a9b2;
+  --hero-backgroun-circle: #939cac;
+  --services-image-color: #11131f33;
+  --reviews-card-background: #1f212d;
+  --hero-clients-circles-border: #93abae;
+  --hero-clients-circles-background: #e3e3e3;
+  --header-underline-color: #f6f5ef33;
+  --aboutblock-image-gradient: linear (#000000, #11131f);
+  --transition-duration-250: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --swiper-bullet-active-color: #88b3b9;
+  --swiper-bullet-color: #1f212d;
+  --yachts-gradient-color-start: #bec7c2;
+  --yachts-gradient-color-end: #a1b5ba;
+  --review-card-text-color: rgba(246, 245, 239, 0.5);
+
+  --border-radius: 24px;
+  --indent-vertical: 6px;
+  --indent-horizontal: 24px;
+  --items: 3;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.32px;
+}
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Tablet devices */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+/* Desktop devices */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* Mobile devices */
+.section {
+  padding: 40px 0;
+}
+/* Tablet devices */
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 64px 0 36px 0;
+  }
+}
+/* Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .section {
+    padding: 64px 0 100px 0;
+  }
 }
