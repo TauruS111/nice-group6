@@ -86,12 +86,14 @@
   background: transparent;
   border: 1px solid var(--white, #f6f5ef);
   color: var(--white, #f6f5ef);
+  display: block;
 }
 .hero-btn-link:hover {
   color: var(--light-green, #93abae);
   background: transparent;
   border: 1px solid var(--light-green, #93abae);
 }
+
 @media screen and (min-width: 768px) {
   .hero-list-btn {
     margin-top: 32px;
