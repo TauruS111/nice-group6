@@ -1,7 +1,6 @@
-
- .header-menu-list {
-    display: none;
-  }
+.header-menu-list {
+  display: none;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -40,7 +39,7 @@
 }
 
 .header-menu-list {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   gap: 24px;
@@ -116,9 +115,6 @@
   align-items: center;
 }
 
-.mobile-menu-item: {
-}
-
 .mobile-menu-link {
   color: var(--white, #f6f5ef);
   font-family: DM Sans;
@@ -130,15 +126,16 @@
   text-transform: uppercase;
 }
 
-
-
 @media screen and (min-width: 768px) {
+  .header-menu-list {
+    display: flex;
+  }
   .header-logo-link {
     margin-right: 271px;
     padding-top: 33px;
     padding-bottom: 33px;
   }
-   .menu-toggle {
+  .menu-toggle {
     display: none;
   }
 }
@@ -148,6 +145,3 @@
     margin-right: 783px;
   }
 }
-
-
-
