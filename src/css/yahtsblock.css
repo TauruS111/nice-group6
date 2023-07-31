@@ -117,10 +117,11 @@
   color: var(--text-color);
   background-color: var(--yachtblock-cards-background-);
 }
-/*.swiper-slide {
+/*
+.swiper-slide {
   width: 344px;
-}*/
-
+}
+*/
 .swiper-slide .swiper-card img {
   border-radius: 29px;
 }
