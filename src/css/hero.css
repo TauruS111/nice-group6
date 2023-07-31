@@ -35,6 +35,10 @@
   margin-top: 14px;
 }
 @media screen and (min-width: 768px) {
+  .hero-container {
+    margin-left: 32px;
+    margin-right: 38px;
+  }
   .hero-title {
     color: var(--white, #f6f5ef);
     font-size: 60px;
@@ -48,6 +52,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .hero-container {
+    margin-right: 32px;
+  }
   .hero-title {
     margin-top: 132px;
   }
@@ -140,6 +147,28 @@
   left: 24px;
   display: flex;
   gap: 14px;
+}
+@media screen and (min-width: 768px) {
+  .hero-list-clients {
+    top: 32px;
+    left: 32px;
+  }
+  .hero-clients-txt {
+    top: 99px;
+    left: 32px;
+  }
+  .hero-ceo-img {
+    top: 32px;
+    left: 339px;
+  }
+  .hero-yaht-img {
+    position: absolute;
+    top: 225px;
+  }
+  .picture-block-list {
+    top: 468px;
+    left: 37px;
+  }
 }
 .picture-block-txt-1 {
   color: #11131f;

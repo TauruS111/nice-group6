@@ -20,39 +20,194 @@
       </ul>
     </div>
     <div class="hero-picture-block">
-      <div class="mask">
+      <!-- <div class="mask">
         <img
           class="picture-block-bg"
           src="../img/hero/Mask.png"
           alt="hero-image"
         />
-      </div>
+      </div> -->
+      <picture>
+        <!-- Tablet screen -->
+
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/hero/mask-tab-1x.png 1x,
+            ../img/hero/mask-tab-2x.png 2x
+          "
+          type="image/png"
+        />
+        <!-- Mobile screen -->
+
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/hero/mask-mob-1x.png 1x,
+            ../img/hero/mask-mob-2x.png 2x
+          "
+          type="image/png"
+        />
+        <img
+          class="card-img"
+          src="../img/hero/mask-mob-1x.png"
+          alt="Mask"
+          2oading="lazy"
+        />
+      </picture>
       <ul class="hero-list-clients">
         <li class="hero-item-clients">
-          <img
-            class="hero-clients-img"
-            src="../img/hero/clients/img-1.jpg"
-            alt="foto client"
-          />
+          <picture>
+            <!-- Tablet screen -->
+
+            <source
+              class="hero-clients-img"
+              media="(min-width: 768px)"
+              srcset="
+                ../img/hero/clients/img-1-tab-1x.jpg 1x,
+                ../img/hero/clients/img-1-tab-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- Mobile screen -->
+
+            <source
+              class="hero-clients-img"
+              media="(max-width: 767px)"
+              srcset="
+                ../img/hero/clients/img-1-mob-1x.jpg 1x,
+                ../img/hero/clients/img-1-mob-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              class="hero-clients-img"
+              src="../img/hero/clients/img-1-mob-1x.jpg"
+              alt="clients"
+              loading="lazy"
+            />
+          </picture>
         </li>
         <li class="hero-item-clients">
-          <img
-            class="hero-clients-img"
-            src="../img/hero/clients/img-2.jpg"
-            alt="foto client"
-          />
+          <picture>
+            <!-- Tablet screen -->
+
+            <source
+              class="hero-clients-img"
+              media="(min-width: 768px)"
+              srcset="
+                ../img/hero/clients/img-2-tab-1x.jpg 1x,
+                ../img/hero/clients/img-2-tab-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- Mobile screen -->
+
+            <source
+              class="hero-clients-img"
+              media="(max-width: 767px)"
+              srcset="
+                ../img/hero/clients/img-2-mob-1x.jpg 1x,
+                ../img/hero/clients/img-2-mob-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              class="hero-clients-img"
+              src="../img/hero/clients/img-2-mob-1x.jpg"
+              alt="clients"
+              loading="lazy"
+            />
+          </picture>
         </li>
         <li class="hero-item-clients">
-          <img
-            class="hero-clients-img"
-            src="../img/hero/clients/img-3.jpg"
-            alt="foto client"
-          />
+          <picture>
+            <!-- Tablet screen -->
+
+            <source
+              class="hero-clients-img"
+              media="(min-width: 768px)"
+              srcset="
+                ../img/hero/clients/img-3-tab-1x.jpg 1x,
+                ../img/hero/clients/img-3-tab-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- Mobile screen -->
+
+            <source
+              class="hero-clients-img"
+              media="(max-width: 767px)"
+              srcset="
+                ../img/hero/clients/img-3-mob-1x.jpg 1x,
+                ../img/hero/clients/img-3-mob-2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              class="hero-clients-img"
+              src="../img/hero/clients/img-3-mob-1x.jpg"
+              alt="clients"
+              loading="lazy"
+            />
+          </picture>
         </li>
       </ul>
       <p class="hero-clients-txt">Our Clients</p>
-      <img class="hero-ceo-img" src="../img/hero/CEO.jpg" alt="CEO" />
-      <img class="hero-yaht-img" src="../img/hero/yaht.png" alt="yaht" />
+      <picture>
+        <!-- Tablet screen -->
+
+        <source
+          class="hero-ceo-img"
+          media="(min-width: 768px)"
+          srcset="../img/hero/ceo-tab-1x.jpg 1x, ../img/hero/ceo-tab-1x.jpg 2x"
+          type="image/jpg"
+        />
+        <!-- Mobile screen -->
+
+        <source
+          class="hero-ceo-img"
+          media="(max-width: 767px)"
+          srcset="../img/hero/ceo-mob-1x.jpg 1x, ../img/hero/ceo-mob-2x.jpg 2x"
+          type="image/jpg"
+        />
+        <img
+          class="hero-ceo-img"
+          src="../img/hero/ceo-mob-1x.jpg"
+          alt="ceo"
+          loading="lazy"
+        />
+      </picture>
+      <picture>
+        <!-- Tablet screen -->
+
+        <source
+          class="hero-yaht-img"
+          media="(min-width: 768px)"
+          srcset="
+            ../img/hero/yaht-tab-1x.png 1x,
+            ../img/hero/yaht-tab-2x.png 2x
+          "
+          type="image/png"
+        />
+        <!-- Mobile screen -->
+
+        <source
+          class="hero-yaht-img"
+          media="(max-width: 767px)"
+          srcset="
+            ../img/hero/yaht-mob-1x.png 1x,
+            ../img/hero/yaht-mob-2x.png 2x
+          "
+          type="image/png"
+        />
+        <img
+          class="hero-yaht-img"
+          src="../img/hero/yaht-mob-1x.png"
+          alt="ceo"
+          loading="lazy"
+        />
+      </picture>
       <ul class="picture-block-list">
         <li>
           <p class="picture-block-txt-1">$12M</p>
