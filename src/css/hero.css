@@ -70,7 +70,7 @@
 .hero-btn {
   padding: 14px 28px;
   border-radius: 60px;
-  background: var(--light-green, #93abae);
+  background: #93abae;
   color: var(--white, #f6f5ef);
   font-family: DM Sans;
   font-size: 14px;
@@ -79,10 +79,18 @@
   line-height: 110%; /* 15.4px */
   letter-spacing: -0.63px;
 }
+.hero-btn:hover {
+  background: #88b3b9;
+}
 .hero-btn-link {
   background: transparent;
   border: 1px solid var(--white, #f6f5ef);
   color: var(--white, #f6f5ef);
+}
+.hero-btn-link:hover {
+  color: var(--light-green, #93abae);
+  background: transparent;
+  border: 1px solid var(--light-green, #93abae);
 }
 @media screen and (min-width: 768px) {
   .hero-list-btn {
