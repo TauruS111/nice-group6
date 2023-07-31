@@ -3,7 +3,7 @@
         <symbol id="icon-reviews-arrow-up" viewBox="0 0 16 32">
             <path d="M0 9.778 8 0l8 9.778H9.386V32H6.615V9.778H.001z" />
         </symbol>
-        <symbol id="icon-yahts-arrow-left" viewBox="0 0 72 32">
+        <symbol id="icon-yahts-arrow-left" viewBox="0 0 72 32"></symbol>
             <path d="M22 0 0 16l22 16V18.771h50v-5.543H22V-.001z" />
         </symbol>
         <symbol id="icon-yahts-arrow-right" viewBox="0 0 72 32">
