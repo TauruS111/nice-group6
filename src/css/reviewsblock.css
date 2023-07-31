@@ -35,18 +35,6 @@
   letter-spacing: -0.28px;
 }
 
-.review-card-list {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  gap: 20px;
-}
-
 .review-card-list::-webkit-scrollbar {
   display: none;
 }
@@ -114,33 +102,24 @@
   background-color: #93abae;
 }
 
-@media screen and (max-width: 767px) {
-  .review-text-blk {
-    margin-bottom: 24px;
-  }
-
-  .review-h {
-    margin-bottom: 24px;
-  }
-
-  .card2 {
-    display: none;
-  }
+.review-text-blk {
+  margin-bottom: 24px;
 }
 
-@media screen and (max-width: 1279px) {
-  .card3 {
-    display: none;
-  }
+.review-h {
+  margin-bottom: 24px;
+}
+
+.card2 {
+  display: none;
+}
+
+.card3 {
+  display: none;
 }
 
 /* for tablet screen */
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding: 0 32px;
-  }
-}
+
 .review-text-blk {
   margin-bottom: 64px;
 }
@@ -206,8 +185,4 @@
   .indicator {
     display: none;
   }
-}
-
-.swiper-container {
-  overflow: hidden;
 }
