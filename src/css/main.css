@@ -32,7 +32,7 @@
 @import url('./rentblock.css');
 
 /*Reviewsblock Styles*/
-/*@import url('./reviewsblock.css');*/
+@import url('./reviewsblock.css');
 
 /*Footer Styles*/
 @import url('./footer.css');
