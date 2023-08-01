@@ -364,13 +364,15 @@
   .bg_yachts-block {
     position: absolute;
     opacity: 0.2;
-    width: 1182px;
-    height: 1611.22px;
-    transform: rotate(90deg) translate(-30px, -150px);
-    background-image: url('../../img/yachts-block/background/bg-lines-zero-degrees.webp');
+    width: 100vw;
+    height: 1200.22px;
+    transform: rotate(89deg) translate(354px, -14px);
+    background-image: url('../img/yachts-block/background/bg-lines-zero-degrees.webp');
     background-repeat: no-repeat;
     background-position: 50% 0;
     z-index: -2;
+    box-sizing: border-box;
+    overflow: hidden;
   }
   .title_yachts-block::before {
     width: 414px;
