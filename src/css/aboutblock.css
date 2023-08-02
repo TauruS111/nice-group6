@@ -1,0 +1,165 @@
+.aboutblock-text{
+    color: var(--color-white);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: -1.08px;
+    margin-bottom: 40px;
+    }
+    .aboutblock-container{
+        padding-top: 80px;
+    }
+    .aboutblock-list{
+    color: var(--color-white);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.28px;
+    }
+    .aboutblock-list{
+        display: flex;
+        gap:14px;
+    }
+    .aboutblock-list-text{
+        width: 160px;
+    }
+    .aboutblock-list-card{
+        width: 161px;
+    }
+    .text-yacht-about{
+        background: var(--linear-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        font-style: italic;
+    }
+    .aboutblock-img{
+        padding-top: 40px;
+    }
+    .aboutblock-card-img{
+        margin-bottom: 24px;  
+    }
+    
+    .aboutblock-img{
+        padding-bottom: 146px;
+    }
+
+    .aboutblock-img-three{
+        position: absolute;
+        top: 24px;
+        left: 75px;
+    }
+    
+    @media only screen and (max-width: 374px){
+        .aboutblock-img-three{
+            position: absolute;
+            top: 24px;
+            left: 70px;
+            width: 75%;
+        
+        }
+    }
+    
+    @media screen and (max-width:  767px) {
+        .aboutblock-card-img{
+           
+            width: 100%;
+        }
+        .aboutblock-img-two{
+          width: 100%;
+        }
+        .aboutblock-imges-three{
+            position: relative;
+        }
+       
+    }
+    
+    @media screen and (min-width:  768px) {
+        .aboutblock-container{
+            padding-top: 100px;
+        }
+        .aboutblock-list-text{
+            width: 183px;
+        }
+        .aboutblock-list-card{
+            width: 185px;
+          
+        }
+        .aboutblock-list{
+            gap: 32px;
+        }
+        .aboutblock-list{
+        justify-content:flex-end;
+        font-size: 16px;
+        line-height: 1.4;
+        letter-spacing: -0.32px;
+        
+        }
+        .aboutblock-text{
+            max-width: 514px;
+            font-size: 32px;
+            letter-spacing: -1.44px;
+            margin-bottom: 32px;
+        } 
+        .aboutblock-img{
+            padding-top: 64px;
+            position: relative;
+        }
+        .aboutblock-card-img{
+            margin-bottom: 32px;
+        } 
+        .aboutblock-img-two{
+            margin-right: 32px;
+        }
+        .aboutblock-img-three{
+            position: absolute;
+            top: 927px;
+            left: 340px;
+        
+        }
+        .aboutblock-img {
+            padding-bottom: 83px;
+        }
+       
+    }
+    @media screen and (min-width:  1280px) {
+        .aboutblock-container{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 164px;
+        }
+        .aboutblock-text{
+            max-width: 514px; 
+            height: 152px;
+        }  
+        .aboutblock-img{
+            position: relative;
+            height: 701px;
+        }
+        .aboutblock-card-img{
+            position: absolute;
+            left: 340px;
+            top:64px;
+    
+        }
+        .aboutblock-img-two{
+            position: absolute;
+            bottom: 0;
+            top: 317px;
+    
+        }
+        .aboutblock-img-three{
+            position: absolute;
+            top: 569px;
+            left: 340px;
+        
+        }
+        .aboutblock-img{
+            padding: 0;
+        }
+       
+    }
