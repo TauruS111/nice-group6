@@ -1,183 +1,241 @@
-.review-h {
-  color: var(--white, #f6f5ef);
-  font-family: DM Sans;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%;
-  letter-spacing: -1.44px;
+.reviews {
+  padding: 80px 0;
 }
 
-.review-span {
-  font-family: DM Sans;
-  font-size: 24px;
+.reviews-list {
+  text-align: center;
+  display: flex;
+}
+
+.reviews-first {
+  display: flex;
+  flex-direction: column;
+  max-width: 335px;
+}
+
+.im-reviews {
+  width: 46px;
+  height: 46px;
+  margin-bottom: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews-title span {
+  color: var(--light-green, linear-gradient(107deg, #BEC7C2 0%, #A1B5BA 100%));
   font-style: italic;
+}
+
+.reviews .container {
+  max-width: 335px;
+}
+
+.reviews-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-title {
+  width: 100%;
+  font-size: 24px;
+  font-style: normal;
   font-weight: 500;
   line-height: 120%;
   letter-spacing: -1.08px;
-  background: var(
-    --linear-green,
-    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--white);
 }
 
-.review-p {
-  max-width: 335px;
-  color: var(--white, #f6f5ef);
-  font-family: DM Sans;
+.reviews-text {
+  color: var(--white);
+  margin-top: 24px;
+  width: 100%;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.28px;
 }
 
-.review-card-list::-webkit-scrollbar {
+.reviews-item {
+  padding: 24px 24px;
+  border-radius: 24px;
+  background: #1F212D;
+
+  margin-top: 40px;
+  max-width: 335px;
+}
+
+.reviews-ul {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.reviews-item {
+  width: 100%;
+  max-height: 208px;
+}
+
+.two {
   display: none;
 }
 
-.review-card-item {
-  border-radius: 24px;
-  background: #1f212d;
-  display: flex;
-  width: 335px;
-  padding: 24px 14px;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
+.three {
+  display: none;
+}
+
+.ri-par {
   text-align: center;
-  scroll-snap-align: start;
-}
-
-.rev-photo {
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.rev-name {
-  color: #f6f5ef;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 110%;
-  letter-spacing: -0.72px;
-}
-
-.rev-text {
-  color: rgba(246, 245, 239, 0.5);
+  margin-top: 8px;
+  color: rgba(246, 245, 239, 0.50);
   text-align: center;
-  font-family: DM Sans;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.24px;
+  color: rgba(246, 245, 239, 0.50);
 }
 
-.back-div {
-  display: flex;
-  flex-direction: row-reverse;
+.ri-title {
+  color: var(--white, #F6F5EF);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.72px;
+
 }
 
-.indicator {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 14px;
-}
-
-.point {
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background-color: #1f212d;
-}
-
-.point.active {
-  background-color: #93abae;
-}
-
-.review-text-blk {
-  margin-bottom: 24px;
-}
-
-.review-h {
-  margin-bottom: 24px;
-}
-
-.card2 {
-  display: none;
-}
-
-.card3 {
-  display: none;
-}
-
-/* for tablet screen */
-
-.review-text-blk {
-  margin-bottom: 64px;
-}
-
-.review-h {
-  max-width: 497px;
-  font-size: 32px;
-  margin-bottom: 32px;
-}
-
-.review-span {
-  font-size: 32px;
-  letter-spacing: -1.44px;
-}
-
-.review-card-list {
-  gap: 16px;
-}
-
-.review-card-item {
-  width: 344px;
-}
-
-/* for desctop screen */
-@media screen and (min-width: 1280px) {
-  .review-text-blk {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+@media screen and (min-width:768px) {
+  .reviews .container {
+      max-width: 704px;
   }
 
-  .review-card-list {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    margin-bottom: 64px;
+  .reviews {
+      padding: 100px 0;
   }
 
-  .review-card-item {
-    width: 384px;
+  .reviews-first {
+      max-width: 704px;
   }
 
-  .rev-photo {
-    width: 56px;
-    height: 56px;
+  .im-reviews {
+      margin-bottom: 24px;
   }
 
-  .rev-name {
-    font-size: 18px;
-    letter-spacing: -0.81px;
+  .reviews-title {
+      max-width: 497px;
+      font-size: 32px;
+      line-height: 120%;
+      letter-spacing: -1.44px;
+
   }
 
-  .rev-text {
-    font-size: 16px;
-    letter-spacing: -0.32px;
+  .reviews-div {
+      display: flex;
+      flex-direction: unset;
   }
 
-  .indicator {
-    display: none;
+  .reviews-list {
+      gap: 16px;
+      max-width: 704px;
+
+  }
+
+  .two {
+      display: block;
+  }
+
+  .three {
+      display: none;
+  }
+
+
+  .reviews-item {
+      width: 344px;
+      max-width: unset;
+      height: 266px;
+      padding: 24px 32px;
+  }
+
+  .reviews-div {
+      flex-direction: column;
+  }
+
+  .reviews-text {
+      margin-top: 32px;
+      max-width: 273px;
+      margin-left: auto;
+      margin-right: 0;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      letter-spacing: -0.32px;
+  }
+
+  .ri-par {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 140%;
+      letter-spacing: -0.32px;
+      max-height: 110px;
+      width: 320px;
+  }
+
+  .ri-title {
+      font-size: 18px;
+  }
+
+}
+
+
+@media screen and (min-width:1220px) {
+  .reviews .container {
+      max-width: 1216px;
+  }
+
+  .reviews-list {
+      margin-top: 64px;
+      gap: 24px;
+      width: 100%;
+      height: 282px;
+  }
+
+  .reviews-first {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .two {
+      display: unset;
+  }
+
+  .three {
+      display: unset;
+  }
+
+  .reviews-item {
+      margin-top: 0;
+      width: 384px;
+      max-width: unset;
+  }
+
+  .reviews-title {
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 120%;
+      letter-spacing: -1.44px;
+      max-width: 497px;
+      margin-left: 0;
+      margin-right: auto;
+  }
+
+  .ri-title {
+      margin-top: 24px;
+  }
+
+  .reviews-first {
+      max-width: 1200px;
   }
 }
