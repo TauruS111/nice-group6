@@ -1,0 +1,183 @@
+.review-h {
+  color: var(--white, #f6f5ef);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.44px;
+}
+
+.review-span {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -1.08px;
+  background: var(
+    --linear-green,
+    linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.review-p {
+  max-width: 335px;
+  color: var(--white, #f6f5ef);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.28px;
+}
+
+.review-card-list::-webkit-scrollbar {
+  display: none;
+}
+
+.review-card-item {
+  border-radius: 24px;
+  background: #1f212d;
+  display: flex;
+  width: 335px;
+  padding: 24px 14px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  text-align: center;
+  scroll-snap-align: start;
+}
+
+.rev-photo {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.rev-name {
+  color: #f6f5ef;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.72px;
+}
+
+.rev-text {
+  color: rgba(246, 245, 239, 0.5);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.24px;
+}
+
+.back-div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.indicator {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.point {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #1f212d;
+}
+
+.point.active {
+  background-color: #93abae;
+}
+
+.review-text-blk {
+  margin-bottom: 24px;
+}
+
+.review-h {
+  margin-bottom: 24px;
+}
+
+.card2 {
+  display: none;
+}
+
+.card3 {
+  display: none;
+}
+
+/* for tablet screen */
+
+.review-text-blk {
+  margin-bottom: 64px;
+}
+
+.review-h {
+  max-width: 497px;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.review-span {
+  font-size: 32px;
+  letter-spacing: -1.44px;
+}
+
+.review-card-list {
+  gap: 16px;
+}
+
+.review-card-item {
+  width: 344px;
+}
+
+/* for desctop screen */
+@media screen and (min-width: 1280px) {
+  .review-text-blk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .review-card-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+
+  .review-card-item {
+    width: 384px;
+  }
+
+  .rev-photo {
+    width: 56px;
+    height: 56px;
+  }
+
+  .rev-name {
+    font-size: 18px;
+    letter-spacing: -0.81px;
+  }
+
+  .rev-text {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+  }
+
+  .indicator {
+    display: none;
+  }
+}
