@@ -251,7 +251,7 @@
 
 /*Modal window*/
 .backdrop {
-  background-color: var(--background-gradient-circles-small);
+  background-color: var(--reviews-card-paragraf-text);
   position: fixed;
   top: 0;
   left: 0;
