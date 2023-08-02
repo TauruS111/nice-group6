@@ -46,8 +46,6 @@
 }
 
 .header-menu-item {
-  padding-top: 35px;
-  padding-bottom: 35px;
 }
 .header-menu-link {
   color: var(--white, #f6f5ef);
@@ -58,6 +56,8 @@
   line-height: 1.18;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 /* Mobail menu */
 
@@ -74,7 +74,8 @@
   outline: none;
 }
 .menu-toggle-icon {
-  background: var(--color-white);
+  background-color: red;
+  fill: #f6f5ef;
 }
 
 .menu-container {
@@ -106,6 +107,8 @@
   color: #fff;
 }
 .menu-mobile-icon-close {
+  background-color: red;
+  fill: #f6f5ef;
 }
 
 .mobile-menu-list {
