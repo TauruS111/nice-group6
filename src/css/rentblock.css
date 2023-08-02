@@ -1,0 +1,382 @@
+.rent-block-padding {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .rent-block-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-block-padding {
+    padding-top: 82px;
+    padding-bottom: 82px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .rent-block-container {
+    max-width: 768px;
+    padding: 0 32px;
+    display: flex;
+    gap: 69px;
+    align-items: flex-end;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-block-container {
+    max-width: 1280px;
+    padding: 0 183px;
+    gap: 188px;
+  }
+}
+.rent-block-title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .rent-block-title {
+    font-size: 60px;
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-block-title {
+    margin-bottom: 64px;
+    max-width: 282px;
+  }
+}
+.rent-block-image {
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .rent-block-image {
+    margin-bottom: 0;
+    width: 271px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-block-image {
+    width: 282px;
+    height: 191px;
+  }
+}
+.rent-block-form {
+  display: flex;
+  max-width: 335px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media only screen and (min-width: 768px) {
+  .rent-block-form {
+    width: 364px;
+    max-width: none;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-block-form {
+    width: 443px;
+  }
+}
+.rent-form-field {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin-bottom: 24px;
+  transition: color 250ms ease 250ms;
+}
+.rent-form-field:focus-within {
+  color: var(--button-light-background);
+}
+@media only screen and (min-width: 768px) {
+  .rent-form-field {
+    font-size: 16px;
+    letter-spacing: -0.72px;
+    margin-bottom: 28px;
+  }
+}
+.rent-form-input {
+  width: 100%;
+  height: 18px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+  color: var(--text-color);
+  outline: none;
+  font-size: 14px;
+  padding-left: 5px;
+  transition: border 250ms ease 250ms, border-radius 250ms ease 250ms;
+}
+.rent-form-input:focus {
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+}
+@media only screen and (min-width: 768px) {
+  .rent-form-input {
+    font-size: 16px;
+  }
+}
+.rent-form-input::placeholder {
+  opacity: 0;
+  transition: opacity 250ms ease 300ms;
+}
+.rent-form-input:focus::placeholder {
+  opacity: 1;
+}
+.rent-comment-text {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin-bottom: 24px;
+  transition: color 250ms ease 250ms;
+}
+.rent-comment-text:focus-within {
+  color: var(--button-light-background);
+}
+@media only screen and (min-width: 768px) {
+  .rent-comment-text {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-comment-text {
+    margin-bottom: 64px;
+  }
+}
+.rent-comment-layout {
+  width: 100%;
+  height: 58px;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+  color: var(--text-color);
+  outline: none;
+  font-size: 14px;
+  padding-left: 5px;
+  transition: border 250ms ease 250ms, border-radius 250ms ease 250ms;
+}
+.rent-comment-layout:focus {
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+}
+@media only screen and (min-width: 768px) {
+  .rent-comment-layout {
+    font-size: 16px;
+  }
+}
+.rent-send-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 28px;
+  background-color: transparent;
+  border-radius: 60px;
+  border: 1px solid var(--text-color);
+
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+@media only screen and (min-width: 768px) {
+  .rent-send-button {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-send-button {
+    transition: border-color 450ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-send-button:hover,
+  .rent-send-button:focus {
+    color: var(--button-light-background);
+    border-color: var(--button-light-background);
+  }
+}
+.rent-send-icon {
+  fill: var(--text-color);
+}
+@media only screen and (min-width: 1280px) {
+  .rent-send-icon {
+    transition: fill 450ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rent-send-button:hover .rent-send-icon {
+    fill: var(--button-light-background);
+  }
+}
+
+.rent-form-wrap:after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: rotate(-45deg);
+}
+
+.rent-form-wrap {
+  position: relative;
+}
+
+.rent-form-wrap::after {
+  top: 58%;
+  left: 73%;
+  width: 142px;
+  height: 142px;
+  background-color: rgba(145, 175, 186, 0.6);
+}
+
+@media only screen and (min-width: 768px) {
+  .rent-form-wrap::after {
+    width: 265px;
+    height: 265px;
+    left: 99%;
+  }
+}
+
+/*Modal window*/
+.backdrop {
+  background-color: var(--background-gradient-circles-small);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.rent-modal-shape {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 335px;
+  height: 396px;
+  border-radius: 20px;
+  background-color: var(--reviews-card-background);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px 24px;
+}
+@media only screen and (max-width: 374px) {
+  .rent-modal-shape {
+    width: 315px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .rent-modal-shape {
+    width: 570px;
+    height: 522px;
+    border-radius: 40px;
+    padding: 97px 64px 64px;
+  }
+}
+
+.backdrop.is-hidden .rent-modal-shape {
+  opacity: 0;
+  transform: translate(-50%, -70%);
+}
+
+.rent-modal-ellipse {
+  position: absolute;
+  top: 56px;
+  left: 85px;
+  width: 142px;
+  height: 142px;
+  transform: rotate(-45.074deg);
+  flex-shrink: 0;
+  background-color: var(--background-gradient-circles);
+  opacity: 0.6;
+  filter: blur(90px);
+}
+
+@media only screen and (min-width: 768px) {
+  .rent-modal-ellipse {
+    width: 265px;
+    height: 265px;
+    left: 158px;
+  }
+}
+
+.rent-modal-button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media only screen and (min-width: 768px) {
+  .rent-modal-button {
+    top: 32px;
+    right: 32px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .rent-modal-icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--text-color);
+  }
+}
+.rent-modal-image {
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .rent-modal-image {
+    width: 338px;
+    height: 198px;
+    margin: 0 auto 21px;
+  }
+}
+.rent-modal-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin-bottom: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .rent-modal-title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+}
+.rent-modal-text {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .rent-modal-text {
+    font-size: 16px;
+  }
+}
