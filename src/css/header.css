@@ -151,3 +151,31 @@
     margin-right: 783px;
   }
 }
+.mobail-container-blur {
+  position: absolute;
+  width: 279px;
+  height: 279px;
+  transform: rotate(-44.916deg);
+  flex-shrink: 0;
+  border-radius: 279px;
+  opacity: 0.8999999761581421;
+  background: #939cac;
+  filter: blur(100px);
+  bottom: -5%;
+  right: 65%;
+  z-index: 0;
+}
+.mobail-container-blur-two {
+  position: absolute;
+  width: 279px;
+  height: 279px;
+  transform: rotate(-44.916deg);
+  flex-shrink: 0;
+  border-radius: 279px;
+  opacity: 0.8999999761581421;
+  background: #939cac;
+  filter: blur(100px);
+  bottom: -20%;
+  right: -10%;
+  z-index: 0;
+}
