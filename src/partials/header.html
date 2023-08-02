@@ -26,7 +26,7 @@
           aria-controls="mobile-menu"
         >
           <svg class="menu-toggle-icon" width="24" height="24">
-            <use href="./img/icons.svg#icon-header-burger-menu"></use>
+            <use href="../img/svg/icons.svg#icon-header-burger-menu"></use>
           </svg>
         </button>
       </div>
@@ -34,12 +34,17 @@
 
     <!--Mobail window-->
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
+      <div class="mobail-header-container container">
+       <a class="header-logo-link link" href="./index.html">
+          <img src="./img/logo.png" alt="logo" width="20" height="23">
+            Yacht Adventures
+          </a>
+       <button class="menu-toggle js-close-menu">
         <svg class="menu-mobile-icon-close" width="24" height="24">
-          <use href="./img/icons.svg#icon-modal-close"></use>
+          <use href="../img/svg/icons.svg#icon-modal-close"></use>
         </svg>
-      </button>
-
+        </button>
+      </div>
       <ul class="mobile-menu-list list">
         <li class="mobile-menu-item"></li>
           <a
