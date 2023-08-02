@@ -60,6 +60,13 @@
   padding-bottom: 35px;
 }
 /* Mobail menu */
+.mobail-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  border-color: var(--color-light-green);
+}
 
 .menu-toggle {
   min-height: 24px;
@@ -83,12 +90,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  padding-top: 164px;
-  padding-bottom: 521px;
-  padding-left: 156px;
-  padding-right: 155px;
+  width: 100%;
+  height: 100%;
+
   background-color: var(--background-color);
   z-index: 999;
   transform: translateX(100%);
@@ -114,6 +118,7 @@
   flex-direction: column;
   gap: 14px;
   align-items: center;
+  padding-top: 140px;
 }
 
 .mobile-menu-link {
