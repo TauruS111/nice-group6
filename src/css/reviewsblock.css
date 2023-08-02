@@ -145,11 +145,6 @@
 
 /* for desctop screen */
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    padding: 0 32px;
-  }
-
   .review-text-blk {
     display: flex;
     flex-direction: row;
