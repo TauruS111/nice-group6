@@ -1,7 +1,6 @@
-/* .hero-container {
-  margin-left: 20px;
-  margin-right: 23px;
-} */
+.hero-describe-block {
+  padding-top: 40px;
+}
 .hero-blur {
   position: absolute;
   width: 279px;
@@ -33,14 +32,12 @@
   font-weight: 500;
   line-height: 110%; /* 39.6px */
   letter-spacing: -1.62px;
-  margin-top: 40px;
 }
 .hero-accent-title {
   background: var(
     --linear-green,
     linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%)
   );
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -54,29 +51,21 @@
   margin-top: 14px;
 }
 @media screen and (min-width: 768px) {
-  /* .hero-container {
-    margin-left: 32px;
-    margin-right: 38px;
-  } */
   .hero-title {
     color: var(--white, #f6f5ef);
     font-size: 60px;
     letter-spacing: -2.7px;
-    margin-top: 64px;
   }
   .hero-txt {
     font-size: 16px;
     letter-spacing: -0.32px;
     margin-top: 14px;
   }
+  .hero-accent-title {
+    font-style: italic;
+  }
 }
 @media screen and (min-width: 1280px) {
-  /* .hero-container {
-    margin-right: 32px;
-  } */
-  .hero-title {
-    margin-top: 132px;
-  }
   .hero-txt {
     margin-top: 16px;
   }
@@ -121,6 +110,9 @@
     font-size: 18px;
     letter-spacing: -0.81px;
   }
+  .hero-describe-block {
+    padding-top: 64px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .hero-container {
@@ -131,6 +123,7 @@
   }
   .hero-describe-block {
     width: 554px;
+    padding-top: 132px;
   }
 }
 .hero-picture-block {
@@ -142,7 +135,7 @@
   display: flex;
 }
 .hero-clients-img {
-  border-radius: 48px;
+  border-radius: 50%;
 }
 .img-1 {
   position: absolute;
