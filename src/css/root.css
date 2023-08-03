@@ -49,6 +49,9 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+main{
+  overflow: hidden;
+}
 
 /* Tablet devices */
 @media screen and (min-width: 768px) {
