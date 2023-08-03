@@ -52,7 +52,6 @@
   text-align: center;
   scroll-snap-align: start;
 }
-
 .rev-photo {
   border-radius: 50%;
   margin-bottom: 10px;
@@ -89,6 +88,7 @@
   justify-content: center;
   gap: 10px;
   margin-top: 14px;
+  margin-bottom: 107px;
 }
 
 .point {
@@ -110,39 +110,43 @@
   margin-bottom: 24px;
 }
 
-.card2 {
-  display: none;
-}
-
-.card3 {
+.item-2,
+.item-3 {
   display: none;
 }
 
 /* for tablet screen */
+@media screen and (min-width: 768px) {
+  .review-text-blk {
+    margin-bottom: 64px;
+  }
 
-.review-text-blk {
-  margin-bottom: 64px;
+  .review-h {
+    max-width: 497px;
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .review-span {
+    font-size: 32px;
+    letter-spacing: -1.44px;
+  }
+
+  .review-card-list {
+    display: flex;
+    gap: 16px;
+  }
+  .item-2 {
+    display: flex;
+  }
+
+  .review-card-item {
+    width: 344px;
+  }
+  .indicator {
+    margin-bottom: 100px;
+  }
 }
-
-.review-h {
-  max-width: 497px;
-  font-size: 32px;
-  margin-bottom: 32px;
-}
-
-.review-span {
-  font-size: 32px;
-  letter-spacing: -1.44px;
-}
-
-.review-card-list {
-  gap: 16px;
-}
-
-.review-card-item {
-  width: 344px;
-}
-
 /* for desctop screen */
 @media screen and (min-width: 1280px) {
   .review-text-blk {
@@ -155,7 +159,7 @@
     display: flex;
     justify-content: center;
     gap: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 164px;
   }
 
   .review-card-item {
@@ -179,5 +183,8 @@
 
   .indicator {
     display: none;
+  }
+  .item-3 {
+    display: flex;
   }
 }
