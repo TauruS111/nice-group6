@@ -59,6 +59,14 @@
   padding-top: 35px;
   padding-bottom: 35px;
 }
+
+.header-menu-link:hover {
+  color: var(--hero-clients-circles-border);
+}
+.header-menu-link:focus {
+  color: var(--hero-clients-circles-border);
+}
+
 /* Mobail menu */
 .mobail-header-container {
   display: flex;
@@ -130,6 +138,13 @@
   line-height: 1.18;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+}
+
+.mobile-menu-link:hover {
+  color: var(--hero-clients-circles-border);
+}
+.mobile-menu-link:focus {
+  color: var(--hero-clients-circles-border);
 }
 
 @media screen and (min-width: 768px) {
