@@ -52,6 +52,7 @@
         position: absolute;
         top: 24px;
         left: 75px;
+        z-index: -8;
     }
     
     @media only screen and (max-width: 374px){
