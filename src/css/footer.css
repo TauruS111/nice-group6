@@ -181,7 +181,13 @@
      letter-spacing: 0.42px;
      text-transform: uppercase;
      text-decoration: none;
- }
+    transition: color 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+    
+    .footer-menu-link:hover,
+    .footer-menu-link:focus {
+        color: var(--hero-clients-circles-border);
+}
 
  .footer-media-social {
      color: var(--text-color);
