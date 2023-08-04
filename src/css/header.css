@@ -123,7 +123,7 @@
 }
 
 .menu-container .menu-toggle {
-  position: absolute;
+  position: initial;
   top: 24px;
   right: 24px;
   color: #fff;
