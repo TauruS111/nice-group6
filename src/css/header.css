@@ -75,6 +75,16 @@
   border-bottom: 1px solid;
   border-color: var(--color-light-green);
   position: relative;
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .mobail-header-container {
+    width: 375px;
+  }
 }
 
 .menu-toggle {
@@ -115,7 +125,7 @@
 .menu-container .menu-toggle {
   position: absolute;
   top: 24px;
-  right: 0px;
+  right: 24px;
   color: #fff;
 }
 .menu-mobile-icon-close {
