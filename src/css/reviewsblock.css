@@ -159,7 +159,8 @@
     display: flex;
     justify-content: center;
     gap: 32px;
-    margin-bottom: 164px;
+    /* margin-bottom: 164px; */
+    padding-bottom: 164px;
   }
 
   .review-card-item {
