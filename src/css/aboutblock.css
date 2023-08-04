@@ -7,7 +7,7 @@
     letter-spacing: -1.08px;
     margin-bottom: 40px;
     }
-    .aboutblock-container{
+    .aboutblock{
         padding-top: 80px;
     }
     .aboutblock-list{
@@ -80,7 +80,7 @@
     }
     
     @media screen and (min-width:  768px) {
-        .aboutblock-container{
+        .aboutblock{
             padding-top: 100px;
         }
         .aboutblock-list-text{
@@ -131,7 +131,9 @@
         .aboutblock-container{
             display: flex;
             justify-content: space-between;
-            padding-top: 164px;
+        }
+        .aboutblock{
+            padding-top: 164px; 
         }
         .aboutblock-text{
             max-width: 514px; 
