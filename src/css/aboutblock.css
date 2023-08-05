@@ -75,7 +75,7 @@
     width: 100%;
   }
   .aboutblock-imges-three {
-    width: 100%;
+    position: relative;
   }
 }
 
